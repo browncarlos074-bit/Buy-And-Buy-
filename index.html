@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy And Buy - $BAB Token | The Future of Decentralized Commerce</title>
+    <meta name="description" content="Buy And Buy ($BAB) - Revolutionizing decentralized commerce with the power of community-driven purchasing">
+    <meta name="keywords" content="BAB token, Buy And Buy, cryptocurrency, DeFi, decentralized commerce">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Buy And Buy - $BAB Token">
+    <meta property="og:description" content="The Future of Decentralized Commerce">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💰</text></svg>">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">💰</span>
+                <span class="logo-text">Buy And Buy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#tokenomics" class="nav-link">Tokenomics</a></li>
+                <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
+                <li><a href="#community" class="nav-link">Community</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>🚀 Launching Soon</span>
+                </div>
+                <h1 class="hero-title">
+                    Don't Just <span class="gradient-text">Build</span><br>
+                    <span class="gradient-text">Buy And Buy</span>
+                </h1>
+                <p class="hero-subtitle">
+                    The revolutionary token that transforms how communities purchase, invest, and grow together. 
+                    Inspired by BNB's "Build and Build" - we say "Buy And Buy" for maximum returns.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary" id="join-community">Join Community</button>
+                    <button class="btn btn-secondary" id="learn-more">Learn More</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number" data-target="10000">0</div>
+                        <div class="stat-label">Community Members</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Days to Launch</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">$BAB</div>
+                        <div class="stat-label">Ticker Symbol</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Buy And Buy?</h2>
+                <p>Built for the community, by the community</p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🛒</div>
+                    <h3>Collective Purchasing Power</h3>
+                    <p>Unite with thousands of holders to unlock exclusive deals, bulk discounts, and premium access to products and services.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">📈</div>
+                    <h3>Community-Driven Growth</h3>
+                    <p>Every transaction strengthens our ecosystem. Buy, hold, and watch your investment grow with our expanding network.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🔐</div>
+                    <h3>Secure & Transparent</h3>
+                    <p>Built on proven blockchain technology with full transparency. Every transaction is verifiable and secure.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Utility-Focused</h3>
+                    <p>Not just another meme coin. $BAB provides real utility through our innovative purchasing ecosystem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="tokenomics">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tokenomics</h2>
+                <p>Fair distribution for sustainable growth</p>
+            </div>
+            
+            <div class="tokenomics-content">
+                <div class="tokenomics-chart">
+                    <div class="chart-container">
+                        <canvas id="tokenomicsChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="tokenomics-details">
+                    <div class="token-info">
+                        <h3>Token Details</h3>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="label">Name:</span>
+                                <span class="value">Buy And Buy</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">Symbol:</span>
+                                <span class="value">$BAB</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">Total Supply:</span>
+                                <span class="value">1,000,000,000</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="label">Contract:</span>
+                                <span class="value pending">Coming Soon</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="distribution">
+                        <h3>Distribution</h3>
+                        <div class="distribution-item">
+                            <div class="item-header">
+                                <span class="item-label">Community Sale</span>
+                                <span class="item-percentage">60%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="item-header">
+                                <span class="item-label">Liquidity Pool</span>
+                                <span class="item-percentage">20%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="20"></div>
+                            </div>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="item-header">
+                                <span class="item-label">Development</span>
+                                <span class="item-percentage">10%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="10"></div>
+                            </div>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="item-header">
+                                <span class="item-label">Marketing</span>
+                                <span class="item-percentage">7%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="7"></div>
+                            </div>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="item-header">
+                                <span class="item-label">Team</span>
+                                <span class="item-percentage">3%</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-width="3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2>Roadmap</h2>
+                <p>Our journey to revolutionize decentralized commerce</p>
+            </div>
+            
+            <div class="roadmap-timeline">
+                <div class="timeline-item active">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Q4 2024</div>
+                        <h3>Foundation</h3>
+                        <ul>
+                            <li>Community Building</li>
+                            <li>Whitepaper Release</li>
+                            <li>Smart Contract Development</li>
+                            <li>Security Audits</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Q1 2025</div>
+                        <h3>Launch</h3>
+                        <ul>
+                            <li>Token Launch</li>
+                            <li>DEX Listings</li>
+                            <li>Liquidity Provision</li>
+                            <li>Community Growth</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Q2 2025</div>
+                        <h3>Ecosystem</h3>
+                        <ul>
+                            <li>Partnership Program</li>
+                            <li>Buy And Buy Platform Beta</li>
+                            <li>Mobile App Development</li>
+                            <li>CEX Listings</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Q3 2025</div>
+                        <h3>Expansion</h3>
+                        <ul>
+                            <li>Platform Full Launch</li>
+                            <li>NFT Integration</li>
+                            <li>Cross-chain Compatibility</li>
+                            <li>Global Partnerships</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <div class="section-header">
+                <h2>Join Our Community</h2>
+                <p>Be part of the Buy And Buy revolution</p>
+            </div>
+            
+            <div class="community-grid">
+                <div class="community-card">
+                    <div class="card-icon">🐦</div>
+                    <h3>Twitter Community</h3>
+                    <p>Join our official Twitter community for the latest updates and discussions</p>
+                    <a href="https://twitter.com/i/communities/1982968542258463021" target="_blank" class="community-link">
+                        Join Now
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="community-card">
+                    <div class="card-icon">📱</div>
+                    <h3>Telegram</h3>
+                    <p>Connect with fellow holders and get real-time updates</p>
+                    <a href="#" class="community-link">
+                        Coming Soon
+                    </a>
+                </div>
+                
+                <div class="community-card">
+                    <div class="card-icon">💬</div>
+                    <h3>Discord</h3>
+                    <p>Join our Discord server for community discussions and support</p>
+                    <a href="#" class="community-link">
+                        Coming Soon
+                    </a>
+                </div>
+            </div>
+            
+            <div class="newsletter">
+                <div class="newsletter-content">
+                    <h3>Stay Updated</h3>
+                    <p>Get the latest news and updates directly to your inbox</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">💰</span>
+                        <span class="logo-text">Buy And Buy</span>
+                    </div>
+                    <p>Revolutionizing decentralized commerce, one purchase at a time.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Project</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#tokenomics">Tokenomics</a></li>
+                            <li><a href="#roadmap">Roadmap</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="https://twitter.com/i/communities/1982968542258463021" target="_blank">Twitter</a></li>
+                            <li><a href="#">Telegram</a></li>
+                            <li><a href="#">Discord</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Whitepaper</a></li>
+                            <li><a href="#">Audit Report</a></li>
+                            <li><a href="#">Brand Kit</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Buy And Buy ($BAB). All rights reserved.</p>
+                <p class="disclaimer">This is not financial advice. Please do your own research.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+  </html>
